@@ -1,0 +1,16 @@
+nav li:nth-child(1) {
+  background-color: #00b7b5;
+}
+
+.header {
+  color: #02075d;
+  background-color: lightblue;
+  text-align: center;
+  font-size: 32px;
+  padding: 5px;
+}
+
+main img {
+  max-width: 100%;
+  margin-bottom: 20px;
+}
