@@ -18,6 +18,10 @@ header {
   justify-content: space-between;
 }
 
+header {
+  padding-left: 5px;
+}
+
 nav ul {
   list-style-type: none;
   overflow: hidden;
