@@ -160,4 +160,4 @@ function decrypt(text, key) {
   return outputArray.join("");
 }
 
-export { encrypt, decrypt }
+export { encrypt, decrypt };
