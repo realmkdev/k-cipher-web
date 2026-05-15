@@ -9,6 +9,7 @@ nav li:nth-child(2) {
   padding: 5px 10px;
   outline: none;
   border: 2px solid grey;
+  border-radius: 10px;
 }
 
 #text-input {
@@ -32,20 +33,26 @@ nav li:nth-child(2) {
   padding: 5px 10px;
   margin-bottom: 5px;
   border: none;
-  transition: background-color 0.15s;
+  transition: all 0.3s ease;
+  border-radius: 10px;
 }
 
 .button:hover {
-  background-color: #00cbc8;
+  transform: scale(1.05);
+  filter: brightness(1.1);
 }
 
 .button:active {
-  background-color: #00d9d5;
+  transform: scale(0.95);
+  filter: brightness(0.9);
 }
 
 @media screen and (max-width: 768px) {
   .input,
   .button {
     font-size: 16px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
   }
 }

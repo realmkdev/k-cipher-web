@@ -14,3 +14,30 @@ main img {
   max-width: 100%;
   margin-bottom: 20px;
 }
+
+.btn {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #00b7b5;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #009e9d;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
